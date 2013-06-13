@@ -84,7 +84,7 @@ Let's make use of the `titlepic` package and some `sed` magic to manipulate the
 
 1. We make a file for custom included packages for `pandoc`:
    `custom_includes.tex`.
-2. In it we put `\include{titlepic}`
+2. In it we put `\usepackage{titlepic}` and `\usepackage{graphicx}`
 3. Instruct `pandoc` to include that file in generated `tex`.
 4. Manipulate the generated `tex` file to include the logo how and when we want
    it.
