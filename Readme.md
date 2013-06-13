@@ -1,6 +1,6 @@
-% frog doc generator %
-% Frank Smith %
-% 13 June 2013 %
+% frog doc generator
+% Frank Smith
+% 13 June 2013
 
 # Introduction #
 
