@@ -24,14 +24,24 @@ You need the following:
 * A basic LaTeX distribution such as TeXLive
 * A Unix tool chain (Windows support will be added in future if there is a need)
 
-First you may want to check out an example, this is what the example branch is
-for:
+# Examples #
+
+The following examples serve to show how automation can be uses to write
+different classes of documents. Each document will be produced using 
+
+First you may want to check out some examples, this is what the example branches
+are for:
+
+## Simple ##
+
+The most simple example is this file itself. It's not a very complicated
+document and the hierarchy is pretty well defined. We don't make use of intra
+doc references or have the need for any fancy tables:
 
 ``` bash
-$ git checkout example
+$ git checkout eg-simple
 $ ./write_documentation
 ```
 
-This will spit out this document as a PDF, together with the frog logo and a
-professional title. This document is written in markdown. Markdown aims to be
-readable standalone and provide some semi-structured way of specifying 
+Like what you see? Go print that doc (or put it on your tablet/reader, you tree
+hugger)
