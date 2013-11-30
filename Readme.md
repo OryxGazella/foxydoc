@@ -1,4 +1,4 @@
-% frog-doc 
+% foxy-doc 
 % Frank Smith
 % 13 June 2013
 
@@ -9,7 +9,7 @@ low level components. Writing these types of documents manually is not
 feasible due to the changing nature of source code.
 
 Generated documents often look unprofessional due to the lack of template
-application. frog-doc tries to address some of these concerns by using a few
+application. foxy-doc tries to address some of these concerns by using a few
 tools together.
 
 * `pandoc`
@@ -69,7 +69,7 @@ $ git checkout eg-logo
 $ ./write_documentation
 ```
 
-Glorious, my company logo!
+Glorious, a company logo!
 
 ### How it's done ###
 
@@ -89,4 +89,4 @@ Let's make use of the `titlepic` package and some `sed` magic to manipulate the
 4. Manipulate the generated `tex` file to include the logo how and when we want
    it.
     1. Include the `titlepage` option in the article class.
-    2. Insert the `\titlepic{\includegraphics{../frog_log.pdf}}` statement right after the doc date
+    2. Insert the `\titlepic{\includegraphics{../logo.pdf}}` statement right after the doc date
